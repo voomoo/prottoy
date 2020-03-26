@@ -1,0 +1,2 @@
+# prottoy
+An static website
