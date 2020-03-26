@@ -1,0 +1,25 @@
+*{
+    border: 0;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.first{
+    height: 100vh;
+    background: url(assets/firsthalf.svg) no-repeat;
+    background-size: cover;
+}
+.second{
+    height: 100vh;
+    background: #FDEFD2;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.second img:hover{
+    transform: scale(1.1);
+    transition: all 500ms;
+
+}
