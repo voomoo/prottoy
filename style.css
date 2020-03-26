@@ -9,7 +9,14 @@
     height: 100vh;
     background: url(assets/firsthalf.svg) no-repeat;
     background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
 }
+.first img{
+    margin: 10px;
+}
+
 .second{
     height: 100vh;
     background: #FDEFD2;
