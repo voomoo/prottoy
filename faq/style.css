@@ -31,8 +31,8 @@ a{
 @media screen and (max-width: 767px) {
     /* start of medium tablet styles */
     .contents img{
-        width: 70%;
-        height: 70%;
+        width: 100%;
+        height: 100%;
     }
     a img{
         width: 30%;
