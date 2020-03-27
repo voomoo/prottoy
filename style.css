@@ -4,6 +4,9 @@
     margin: 0;
     box-sizing: border-box;
 }
+body{
+    background: #FDEFD2;
+}
 
 .first{
     height: 100vh;
@@ -21,12 +24,37 @@
     height: 100vh;
     background: #FDEFD2;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
+}
+.second img{
+    padding: 10px;
 }
 
 .second img:hover{
     transform: scale(1.1);
     transition: all 500ms;
 
+}
+@media only screen and (min-width: 1600px) {
+    
+    .first img{
+        width: 150%;
+        height: 150%;
+    }
+    .second img{
+        width: 130%;
+        height: 130%;
+    }
+}
+@media screen and (max-width: 767px) {
+    /* start of medium tablet styles */
+    .first img{
+        width: 70%;
+        height: 70%;
+    }
+    .first{
+        background: url(assets/mobilefirst.svg) no-repeat center;
+    }
 }
