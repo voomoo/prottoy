@@ -9,6 +9,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    
 }
 body img{
     padding-bottom: 20px;
@@ -35,6 +36,7 @@ a{
         width: 90%;
         height: 90%;
     }
+    
     a img{
         width: 30%;
         height: 30%;
