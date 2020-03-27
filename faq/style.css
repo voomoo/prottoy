@@ -1,0 +1,43 @@
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #FDEFD2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+body img{
+    padding-bottom: 20px;
+}
+.contents{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+a{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px ;
+}
+.contents img{
+    padding: 15px;
+}
+
+@media screen and (max-width: 767px) {
+    /* start of medium tablet styles */
+    .contents img{
+        width: 70%;
+        height: 70%;
+    }
+    a img{
+        width: 30%;
+        height: 30%;
+    }
+
+    
+}
