@@ -7,9 +7,7 @@
 a{
     display: flex;
     justify-content: center;
-    padding-bottom: 30px ;
-    padding-bottom: 15px;
-    margin-bottom: 25px ;
+    padding-bottom: 30px;
 }
 .main{
     width: 50%;
@@ -34,8 +32,8 @@ body{
         font-size: 30px;
     }
     a img{
-        width: 30%;
-        height: 30%;
+        width: 60%;
+        height: 60%;
     }
     
 }
