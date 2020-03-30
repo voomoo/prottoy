@@ -34,6 +34,7 @@ body{
 }
 .logo{
     font-size: 32px;
+    
 }
 a{
     text-decoration: none;
@@ -72,6 +73,8 @@ li{
         width: 130%;
         height: 130%;
     }
+    
+    
 }
 @media screen and (max-width: 900px) {
     /* start of medium tablet styles */
@@ -94,9 +97,11 @@ li{
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
-        font-size: 10px;
+        font-size: 5px;
+        align-items: center;
+        justify-content: center;
     }
     li{
-        padding-left: 10px;
+        padding-left: 5px;
     }
 }

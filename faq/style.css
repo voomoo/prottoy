@@ -51,6 +51,11 @@ li{
     padding: 15px;
     
 }
+.active{
+    color: gray;
+    border-bottom: 1px solid gray;
+}
+
 
 @media screen and (max-width: 767px) {
     /* start of medium tablet styles */
@@ -71,10 +76,12 @@ li{
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
-        font-size: 10px;
+        font-size: 5px;
+        align-items: center;
+        justify-content: center;
     }
     li{
-        padding-left: 10px;
+        padding-left: 5px;
     }
 
     
