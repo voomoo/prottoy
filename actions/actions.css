@@ -4,27 +4,38 @@
     margin: 0;
     box-sizing: border-box;
 }
-
+a{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px ;
+    padding-bottom: 15px;
+    margin-bottom: 25px ;
+}
+.main{
+    width: 50%;
+    height: 50%;
+    object-fit: scale-down;
+}
 body{
-    height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     color: #EB5569;
     font-size: 50px;
+    background: #FDEFD2;
 }
-img{
-    width: 50%;
-    height: 50%;
-}
+
 @media screen and (max-width: 767px) {
     /* start of medium tablet styles */
-    img{
-        width: 70%;
+    .main{
+        width: 100%;
     }
     body{
         font-size: 30px;
+    }
+    a img{
+        width: 30%;
+        height: 30%;
     }
     
 }
