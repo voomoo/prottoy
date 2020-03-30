@@ -22,7 +22,7 @@ body{
     justify-content: space-between;
     align-items: center;
     box-shadow: 1px 1px 1px 1px #ccc;
-    background-color: #F3A1AC;
+    background-color: #F58A97;
 
 }
 .main a{
@@ -32,7 +32,7 @@ body{
     align-items: center;
 }
 .logo{
-    font-size: 1.5em;
+    font-size: 32px;
 }
 a{
 
@@ -44,7 +44,7 @@ li{
     display: inline;
     padding: 20px;
     font-weight: bold;
-    font-size: 0.8em;
+    font-size: 14px;
 }
 .main{
     display: flex;
@@ -59,18 +59,18 @@ li{
 @media screen and (max-width: 767px) {
     /* start of medium tablet styles */
     .nav-bar{
-        height: 60px;
+        height: 110px;
     }
     .logo{
         width: 20%;
-        font-size: 1em;
+        font-size: 20px;
     }
     ul{
         width: 70%;
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
-        font-size: 0.5em;
+        font-size: 10px;
     }
     li{
         padding-left: 10px;

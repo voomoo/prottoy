@@ -33,7 +33,7 @@ body{
 
 }
 .logo{
-    font-size: 1.5em;
+    font-size: 32px;
 }
 a{
     text-decoration: none;
@@ -44,7 +44,7 @@ li{
     display: inline;
     padding: 20px;
     font-weight: bold;
-    font-size: 0.8em;
+    font-size: 14px;
 }
 .second{
     height: 100vh;
@@ -65,19 +65,18 @@ li{
 }
 @media only screen and (min-width: 1600px) {
     
-    .first img{
-        width: 150%;
-        height: 150%;
+    .pc{
+        width: 80%;
     }
     .second img{
         width: 130%;
         height: 130%;
     }
 }
-@media screen and (max-width: 1030px) {
+@media screen and (max-width: 900px) {
     /* start of medium tablet styles */
     .nav-bar{
-        height: 60px;
+        height: 110px;
     }
 
     .pc{
@@ -88,14 +87,14 @@ li{
     }
     .logo{
         width: 20%;
-        font-size: 1em;
+        font-size: 20px;
     }
     ul{
         width: 70%;
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
-        font-size: 0.5em;
+        font-size: 10px;
     }
     li{
         padding-left: 10px;
