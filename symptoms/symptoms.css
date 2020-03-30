@@ -22,12 +22,14 @@ body img{
 }
 .contents{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }
 .contents img{
-    padding: 15px;
+    padding: 25px;
+    width: 30%;
 }
 
 @media screen and (max-width: 767px) {
